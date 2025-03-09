@@ -13,7 +13,7 @@ st.header('E-Commerce Dashboard')
 
 st.subheader('by Charles Wijaya')
 
-st.image("./E-Commerce.jpeg", use_column_width=True)
+st.image("./E-Commerce.jpeg", use_container_width=True)
 
 st.write("This is the dataset used for analysis")
 
@@ -55,7 +55,7 @@ with tabs[0]:
     st.write(rfm_count)
     
     st.write("Startegi untuk beberapa segmentasi:")
-    st.image("./Segmentasi.png", use_column_width=True)
+    st.image("./Segmentasi.png", use_container_width=True)
     
 
 with tabs[1]:
